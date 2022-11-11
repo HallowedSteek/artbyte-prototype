@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+
+    <title>ArtByte</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-custom navbar-expand-lg mb-2">
+            <div class="container-fluid">
+                <a href="/acasa.html" class="navbar-brand"><img id="logo" src="../images/logo.png" alt="Logo"
+                        title="Logo"><span>ArtByte</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="../acasa.html" class="nav-link">Acasă</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Noutati/news.html" class="nav-link">Noutăți</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Proiecte/proiecte.html" class="nav-link">Proiecte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./echipa.html" class="nav-link active">Echipă</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./parteneri.html" class="nav-link">Parteneri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Cont/contact.html" class="nav-link">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <div id="wrapper">
+        <main>
+            <h1 class="center-title bolder pb-4"> <u>Echipa noastră</u> </h1>
+            <div class="row">
+                <div class="col-lg-5 col-md-8 mx-auto py-3">
+                    <figure class="center">
+                        <img src="images/person.jpg" alt="" class="lider">
+                        <figcaption class="bold center py-3">Leader <br>
+                            <h2 style="font-size: 25px; margin-top: 10px;">- LIDER -</h2>
+                        </figcaption>
+                        <button action='toggle()' class="center py-3">
+                            <span>Vezi echipa</span>
+                            <i class="fas fa-angle-down down-arrow"></i>
+                        </button>
+                    </figure>
+                </div>
+                <div class="col-lg-6 col-md-8 pt-5 px-5 article mx-auto">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum distinctio
+                        necessitatibus ab excepturi deleniti, qui nihil eos recusandae voluptates corrupti saepe
+                        praesentium culpa quam delectus! Placeat provident recusandae suscipit.
+                    </p>
+                </div>
+            </div>
+            <!-- SECTIUNEA LUI RAZVI -->
+            <section id="hidden-section" class="hide">
+                <div class="row">
+                    <div class="col-lg-12 text-left mt-5">
+                        <h1 class="pt-2 bold text-dark border-custom-top display-4">Mentori</h1>
+                    </div>
+                </div>
+                <div class="container center">
+                    <!-- MENTORI SOFTWARE -->
+                    <div class="row">
+                        <div class="col-12 text-center border-custom-bottom">
+                            <h1 class="pt-2 text-dark">
+                                <span class="px-4 fs-1 fw-normal">Software</span>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="row py-3 d-flex justify-content-around">
+                        <div class="col-lg-3 col-md-5 col-sm-10 mx-3 my-3 article radius">
+                            <img src="images/person.jpg" alt="imagine" class="restul w-100 mx-auto my-3 radius">
+                            <div class="fs-5 pb-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum deleniti recusandae
+                                corporis nam nesciunt placeat. Modi quo reprehenderit aut nam culpa commodi alias
+                                molestiae eveniet accusantium sit temporibus, soluta blanditiis.
+                            </div>
+                            <div class="pb-3 pt-2 align-items-start">
+                                <a href="images/cvMorosanu" class="portfolio-link text-dark fs-5 mx-auto fw-bolder"
+                                    target="_blank">
+                                    <i class="fas fa-angle-right"></i>Vezi CV
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-5 col-sm-10 mx-3 my-3 article radius">
+                            <img src="images/Pislaru.jpeg" alt="imagine" class="restul w-100 mx-auto my-3 radius">
+                            <div class="fs-5 pb-3">
+                                Mă numesc Andrei, sunt o persoană foarte curioasă, muncitoare, căreia îi place să
+                                programeze și să facă echipă cu oamenii pentru a veni cu cele mai bune și mai eficiente
+                                soluții pentru orice fel de problemă!
+                            </div>
+                            <div class="pb-3 pt-2 align-items-start">
+                                <a href="images/CV Pîslaru Andrei-Ionuț .pdf "
+                                    class="portfolio-link text-dark fs-5 mx-auto fw-bolder" target="_blank">
+                                    <i class="fas fa-angle-right"></i>Vezi CV
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- MENTORI SOFTWARE - VR -->
+                    <div class="row">
+                        <div class="col-12 text-center border-custom-bottom">
+                            <h1 class="pt-2 text-dark">
+                                <span class="px-4 fs-1 fw-normal">Software - VR</span>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="row py-3 d-flex justify-content-around">
+                        <div class="col-lg-3 col-md-5 col-sm-10 mx-3 my-3 article radius">
+                            <img src="images/person.jpg" alt="imagine" class="restul w-100 mx-auto my-3 radius">
+                            <div class="fs-5 pb-3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt saepe ratione aperiam
+                                dolore, laborum ipsa. Sunt rem voluptas voluptates non consequatur reprehenderit
+                                voluptatum asperiores voluptatem!
+                            </div>
+                            <div class="pb-3 pt-2 align-items-start">
+                                <a href="images/CV Andra" class="portfolio-link text-dark fs-5 mx-auto fw-bolder"
+                                    target="_blank">
+                                    <i class="fas fa-angle-right"></i>Vezi CV
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-5 col-sm-10 mx-3 my-3 article radius">
+                            <img src="images/person.jpg" alt="imagine" class="restul w-100 mx-auto my-3 radius">
+                            <div class="fs-5 pb-3">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis nam similique quidem
+                                delectus sunt quis cum beatae porro velit eaque?
+                            </div>
+                            <div class="pb-3 pt-2 align-items-start">
+                                <a href="images/Marian Brezaiu" class="portfolio-link text-dark fs-5 mx-auto fw-bolder"
+                                    target="_blank">
+                                    <i class="fas fa-angle-right"></i>Vezi CV
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- MENTORI HARDWARE -->
+
+
+                    <div class="row pt-3">
+                        <div class="col-12 text-center border-custom-bottom">
+                            <h1 class="pt-2 text-dark">
+                                <span class="px-4 fs-1 fw-normal">Hardware</span>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="row py-3 d-flex justify-content-around">
+                        <div class="col-lg-3 col-md-5 col-sm-10 mx-3 my-3 article radius">
+                            <img src="images/person.jpg" alt="imagine" class="restul w-100 mx-auto my-3 radius">
+                            <div class="fs-5 pb-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta expedita iure, maiores ab
+                                perspiciatis autem laudantium totam dolor provident perferendis pariatur nisi molestias?
+                            </div>
+                            <div class="pb-3 pt-2 align-items-start">
+                                <a href="images/Daniel_Albu_R_sum_"
+                                    class="portfolio-link text-dark fs-5 mx-auto fw-bolder" target="_blank">
+                                    <i class="fas fa-angle-right"></i>Vezi CV
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-5 col-sm-10 mx-3 my-3 article radius">
+                            <img src="images/person.jpg" alt="imagine" class="restul w-100 mx-auto my-3 radius">
+                            <div class="fs-5 pb-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, tempore? Sed recusandae
+                                laborum itaque cum ipsa quis.
+                            </div>
+                            <div class="pb-3 pt-2 align-items-start">
+                                <a href="images/Dugan_Tudor" class="portfolio-link text-dark fs-5 mx-auto fw-bolder"
+                                    target="_blank">
+                                    <i class="fas fa-angle-right"></i>Vezi CV
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- MENTORI SOCIAL MEDIA -->
+
+
+                    <div class="row pt-3">
+                        <div class="col-12 text-center border-custom-bottom">
+                            <h1 class="pt-2 text-dark">
+                                <span class="px-4 fs-1 fw-normal">Social Media</span>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="row py-3 d-flex justify-content-around">
+                        <div class="col-lg-3 col-md-5 col-sm-10 mx-3 my-3 article radius">
+                            <img src="images/person.jpg" alt="imagine" class="restul w-100 mx-auto my-3 radius">
+                            <div class="fs-5 pb-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis,
+                                doloribus quis aliquid excepturi.
+                            </div>
+                            <div class="pb-3 pt-2 align-items-start">
+                                <a href="images/CV_Danila_Mihai_Bogdan"
+                                    class="portfolio-link text-dark fs-5 mx-auto fw-bolder" target="_blank">
+                                    <i class="fas fa-angle-right"></i>Vezi CV
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-5 col-sm-10 mx-3 my-3 article radius">
+                            <img src="images/person.jpg" alt="imagine" class="restul w-100 mx-auto my-3 radius">
+                            <div class="fs-5 pb-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis,
+                                doloribus quis aliquid excepturi. </div>
+                            <div class="pb-3 pt-2 align-items-start">
+                                <a href="images/CV Gogu Stere 2" class="portfolio-link text-dark fs-5 mx-auto fw-bolder"
+                                    target="_blank">
+                                    <i class="fas fa-angle-right"></i>Vezi CV
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-5 col-sm-10 mx-3 my-3 article radius">
+                            <img src="images/person.jpg" alt="imagine" class="restul w-100 mx-auto my-3 radius">
+                            <div class="fs-5 pb-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis,
+                                doloribus quis aliquid excepturi. </div>
+                            <div class="pb-3 pt-2 align-items-start">
+                                <a href="images/cv_marin" class="portfolio-link text-dark fs-5 mx-auto fw-bolder"
+                                    target="_blank">
+                                    <i class="fas fa-angle-right"></i>Vezi CV
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <!-- SECTIUNEA LUI FERI -->
+
+                <!-- ========MEMBRII=======-->
+                <div class="col-12">
+                    <div class="row mt-5 border-custom-top">
+                        <div class="col-12 text-left">
+                            <h1 class="pt-2 bold text-dark display-4">Membrii</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Software -->
+                <div class="row text-center">
+                    <div class="col-lg-3 col-md-8 mx-auto">
+                        <h1 class="py-2 bold text-dark border-custom-bottom">Software</h1>
+                    </div>
+                </div>
+
+                <div class="grid-cards-div center">
+
+
+
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Team Member </span>
+                        <p class="member-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis, doloribus
+                            quis aliquid excepturi. </p>
+                        <a href="" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Vezi CV
+                        </a>
+                    </div>
+
+
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Team Member </span>
+                        <p class="member-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis, doloribus
+                            quis aliquid excepturi. </p>
+                        <a href="" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Vezi CV
+                        </a>
+                    </div>
+
+
+
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Team Member </span>
+                        <p class="member-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis, doloribus
+                            quis aliquid excepturi. </p>
+                        <a href="" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Vezi CV
+                        </a>
+                    </div>
+
+
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Team Member </span>
+                        <p class="member-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis, doloribus
+                            quis aliquid excepturi. </p>
+                        <a href="" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Vezi CV
+                        </a>
+                    </div>
+
+
+
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Team Member </span>
+                        <p class="member-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis, doloribus
+                            quis aliquid excepturi. </p>
+                        <a href="" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Vezi CV
+                        </a>
+                    </div>
+
+
+
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Team Member </span>
+                        <p class="member-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis, doloribus
+                            quis aliquid excepturi. </p>
+                        <a href="" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Vezi CV
+                        </a>
+                    </div>
+
+
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Team Member </span>
+                        <p class="member-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis, doloribus
+                            quis aliquid excepturi. </p>
+                        <a href="" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Vezi CV
+                        </a>
+                    </div>
+
+
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Team Member </span>
+                        <p class="member-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis, doloribus
+                            quis aliquid excepturi. </p>
+                        <a href="" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Vezi CV
+                        </a>
+                    </div>
+
+
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Team Member </span>
+                        <p class="member-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis, doloribus
+                            quis aliquid excepturi. </p>
+                        <a href="" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Vezi CV
+                        </a>
+                    </div>
+
+
+
+                </div>
+
+                <!-- Hardware -->
+                <div class="row text-center">
+                    <div class="col-lg-3 col-md-8 mx-auto mt-5">
+                        <h1 class="py-2 bold text-dark border-custom-bottom">Hardware</h1>
+                    </div>
+                </div>
+
+                <div class="grid-cards-div">
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Team Member </span>
+                        <p class="member-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis, doloribus
+                            quis aliquid excepturi. </p>
+                        <a href="" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Vezi CV
+                        </a>
+                    </div>
+
+
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Team Member </span>
+                        <p class="member-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis, doloribus
+                            quis aliquid excepturi. </p>
+                        <a href="" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Vezi CV
+                        </a>
+                    </div>
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Team Member </span>
+                        <p class="member-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis, doloribus
+                            quis aliquid excepturi. </p>
+                        <a href="" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Vezi CV
+                        </a>
+                    </div>
+
+
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Team Member </span>
+                        <p class="member-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis, doloribus
+                            quis aliquid excepturi. </p>
+                        <a href="" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Vezi CV
+                        </a>
+                    </div>
+
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Marcean Mihai-Alexandru</span>
+                        <p class="member-description">
+
+                        </p>
+                        <a href="images/CV_Marcean_Mihai_Alexandru" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Portfolio
+                        </a>
+                    </div>
+
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Team Member </span>
+                        <p class="member-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis, doloribus
+                            quis aliquid excepturi. </p>
+                        <a href="" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Vezi CV
+                        </a>
+                    </div>
+
+
+
+
+                </div>
+
+                <!-- Social Media -->
+                <div class="row text-center">
+                    <div class="col-lg-3 col-md-8 mx-auto mt-5">
+                        <h1 class="py-2 bold text-dark border-custom-bottom">Social Media</h1>
+                    </div>
+                </div>
+
+                <div class="grid-cards-div">
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Team Member </span>
+                        <p class="member-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis, doloribus
+                            quis aliquid excepturi. </p>
+                        <a href="" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Vezi CV
+                        </a>
+                    </div>
+
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Team Member </span>
+                        <p class="member-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis, doloribus
+                            quis aliquid excepturi. </p>
+                        <a href="" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Vezi CV
+                        </a>
+                    </div>
+
+
+
+                    <div class="grid-card">
+                        <img src="images/person.jpg" alt="">
+                        <span class="member-name">Team Member </span>
+                        <p class="member-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores omnis, doloribus
+                            quis aliquid excepturi. </p>
+                        <a href="" class="portfolio-link text-dark">
+                            <i class="fas fa-angle-right"></i>Vezi CV
+                        </a>
+                    </div>
+
+                </div>
+
+            </section>
+        </main>
+    </div> <br> <br>
+
+    <div class="footer container-fluid mt-5 mx-0 p-3 mb-0">
+        <div class="row domain">
+            <div class="col-xl-2 col-lg-6 col-md-10 mx-auto pt-3 footer-details">
+                <h2 class="pl-0">ArtByte</h2>
+                <p class="pb-3 pt-5 footer-details-border">Un proiect pornit dintr-o pasiune care a ajuns sa influenteze
+                    vieti!
+                </p>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-10 pt-3 mx-auto">
+                <div class="footer-details">
+                    <i class="fa fa-cogs"></i>
+                    <h3 class="bold pt-2 pb-4">Proiectele noastre</h3>
+                    <p class="pt-4">Robotul InMoove
+                    </p>
+                    <p class="pt-3">Robotul din Minecraft
+                    </p>
+                    <p class="pt-3">Levitronul acustic
+                    </p>
+                    <p class="pt-3">Aparatul pentru păsări
+                    </p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-10 pt-3 mx-auto ">
+                <div class="footer-details">
+                    <i class="fa fa-envelope"></i>
+                    <h3 class="bold pt-2 pb-4">Cum ne contactezi</h3>
+                    <div id="social-icons">
+                        <a href="https://www.youtube.com/channel/UCFWTBddXvyaXYDL8x8XpukA"><i
+                                class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/artbyte510/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/ArtByte510"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="center mt-4">
+                        <i class="fas fa-envelope" style="font-size: 20px;"></i>
+                        <a href="mailto:artbyte@gmail.com">artbyte@gmail.com</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-10 pt-3 mx-auto">
+                <div class="footer-details">
+                    <i class="fa fa-street-view"></i>
+                    <h3 class="bold pt-2 pb-4">Unde ne poti gasi</h3>
+                    <p class="pt-3">
+                        Strada Institutului 10, 500484, Brașov, Romania
+                    </p>
+                    <p class="center pt-3">
+                        <i class="fas fa-map-marker-alt" style="font-size: 20px;"></i>
+                        <a href="https://www.google.com/maps/place/Institutul+de+Cercetare+-+Dezvoltare+al+Universitatii+Transilvania+din+Brasov/@45.6698593,25.5431951,17z/data=!4m12!1m6!3m5!1s0x40b35bee06f72b39:0x928094b72511117b!2sCentrul+de+Afaceri,+Transfer+Tehnologic+si+Incubator+de+Afaceri+(CATTIA)+Bra%C8%99ov!8m2!3d45.6698593!4d25.5453838!3m4!1s0x40b35a501206a605:0x70cd96b65ff1fa84!8m2!3d45.6694883!4d25.5500694"
+                            target="_blank">Vizualizeaza pe harti</a>
+                    </p>
+                </div>
+            </div>
+            <center class="center pt-5 small">
+                &copy;Artbyte 2021 2021 All rights serverd.
+            </center>
+        </div>
+    </div>
+</body>
+
+<script src="app.js"></script>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
